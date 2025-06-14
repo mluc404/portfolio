@@ -10,11 +10,17 @@ export default function NavButtons() {
     }
   };
 
-  const buttonNames: string[] = ["about", "projects", "experience"];
+  const buttonNames: string[] = [
+    "about",
+    "projects",
+    "experience",
+    "education",
+  ];
   const [currentBtn, setCurrentBtn] = useState<string>("");
 
   useEffect(() => {
     scrollToSection("about");
+    setCurrentBtn("about");
   }, []);
 
   return (

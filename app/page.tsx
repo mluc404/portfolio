@@ -4,12 +4,14 @@ import RightSide from "./components/RightSide";
 
 export default function Home() {
   return (
-    <div className="flex relative ">
-      <div className="h-[100vh] w-[40%] sticky top-0">
-        <LeftSide />
-      </div>
-      <div className="w-[60%]">
-        <RightSide />
+    <div>
+      <div className="flex flex-col md:flex-row md:relative ">
+        <div className=" w-full md:w-[40%] md:h-[100vh] md:sticky md:top-0">
+          <LeftSide />
+        </div>
+        <div className="w-full md:w-[60%]">
+          <RightSide />
+        </div>
       </div>
     </div>
   );
