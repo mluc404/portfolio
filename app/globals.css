@@ -30,3 +30,8 @@ body {
 .btn-nav {
   @apply hover:cursor-pointer uppercase;
 }
+
+.blur-heading {
+  @apply md:hidden w-[110vw] -mx-8 px-8 sticky top-0 bg-[0d172b]
+  font-semibold py-3 backdrop-blur-[10px];
+}
