@@ -3,21 +3,30 @@ import Image from "next/image";
 
 export default function ProjectCard({ project }: { project: ProjectProps }) {
   return (
-    <div className="grid grid-cols-[30%_1fr] gap-4 items-start hover:bg-blue-300/10">
-      <div className="">
-        {/* <div className="relative"> */}
+    <div
+      className="flex flex-col sm:grid sm:grid-cols-[30%_1fr] gap-4 items-start hover:bg-blue-300/10
+    sm:px-4 sm:py-6 rounded-xl"
+    >
+      <div className="hidden sm:block">
         <Image src={project.image} alt="project image" className="rounded-xl" />
       </div>
-      <div className="flex flex-col">
-        <div>{project.title}</div>
-        <div>{project.description}</div>
-        <div className="flex gap-2">
+      <div className="flex flex-col gap-1">
+        <div className="font-semibold text-[1.1rem] ">{project.title}</div>
+        <div className="text-gray-400 leading-tight">{project.description}</div>
+        <div className="flex gap-2 mt-2 flex-wrap">
           {project.skills.map((skill, index) => (
-            <div key={index} className="bg-blue-400/50 rounded-[15px] px-2">
+            <div
+              key={index}
+              className="bg-green-300/20 rounded-[10px] px-2
+            text-[.9rem] text-cyan-300"
+            >
               {skill}
             </div>
           ))}
         </div>
+      </div>
+      <div className="sm:hidden">
+        <Image src={project.image} alt="project image" className="rounded-xl" />
       </div>
     </div>
   );

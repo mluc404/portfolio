@@ -12,8 +12,8 @@ export default function NavButtons() {
 
   const buttonNames: string[] = [
     "about",
-    "projects",
     "experience",
+    "projects",
     "education",
   ];
   const [currentBtn, setCurrentBtn] = useState<string>("");
