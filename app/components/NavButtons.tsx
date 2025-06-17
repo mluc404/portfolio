@@ -32,7 +32,7 @@ export default function NavButtons() {
             setCurrentBtn(btnName);
             scrollToSection(btnName);
           }}
-          className={`grid  w-full items-center justify-items-start gap-4
+          className={`grid w-full items-center justify-items-start gap-4
         hover:cursor-pointer hover:text-white hover:grid-cols-[20%_1fr] 
         transition-all duration-200 ease-in-out group
          ${

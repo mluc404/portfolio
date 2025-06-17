@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 import roamio3 from "@/public/roamio3.png";
-import portfo1 from "@/public/portfo1.png";
+import portfo4 from "@/public/portfo4.png";
 import pokeMind from "@/public/pokeMind.png";
 
 export interface JobProps {
@@ -111,7 +111,7 @@ export const myInfo: MyInfoType = {
       description: `A modern, adaptable website built to perform flawlessly on both desktop and mobile,
          highlighting my projects and skills with a smooth user experience.`,
       skills: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
-      image: portfo1,
+      image: portfo4,
       link: "https://github.com/mluc404/portfolio",
     },
   ],
