@@ -35,7 +35,7 @@ export const myInfo: MyInfoType = {
   job: [
     {
       title: "Frontend Developer",
-      company: "Self-Learning and Projects",
+      company: "Personal Projects",
       time: "July 2024 - Present",
       description: `I've immersed myself in The Odin Project
          with a strong focus on Frontend development. 
@@ -72,7 +72,7 @@ export const myInfo: MyInfoType = {
       company: "Hopeboat Productions",
       time: "2017 - 2020",
       description: `Maintained the company website using HTML, CSS, and JavaScript. 
-        Boosted online presence by 23% through social media strategies and enhanced site 
+        Boosted online presence through social media strategies and enhanced site 
         responsiveness across devices. This blended my creative and technical skills for business growth.`,
       skills: ["Makerting", "Business Development", "Photography"],
     },
@@ -81,9 +81,7 @@ export const myInfo: MyInfoType = {
   projects: [
     {
       title: "Roamio Travel Planner",
-      description:
-        // "Inspired by my passion for travel, I created Roamio, a full stack web app designed to streamline and enhance your travel planning and management experience.",
-        `Designed and built a full stack travel planner from scratch, allowing users to plan and
+      description: `Designed and built a full stack travel planner from scratch, allowing users to plan and
          manage trips with Ai powered suggestions.`,
       skills: [
         "React",
@@ -98,9 +96,7 @@ export const myInfo: MyInfoType = {
     },
     {
       title: "PokeMind",
-      description:
-        // "Test your memory by selecting unique Pokémon cards in the correct order. PokeMind challenges players to stay sharp as the cards shuffle after every correct selection.",
-        `Interactive memory game leveraging PokeAPI to dynamically render Pokémon cards 
+      description: `Interactive memory game leveraging PokeAPI to dynamically render Pokémon cards 
         with two difficulty levels.`,
       skills: ["Vite", "React", "JavaScript", "CSS", "PokeAPI"],
       image: pokeMind,

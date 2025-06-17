@@ -16,7 +16,7 @@ export default function LeftSide() {
       <div className="flex flex-col gap-20">
         <div className="flex flex-col gap-0">
           <h1 className="font-bold text-[2.8rem] md:text-[3rem]">Minh Luc</h1>
-          <p className="text-[1.2rem] md:text-[1.3rem]">Front End Developer</p>
+          <p className="text-[1.2rem] md:text-[1.3rem]">Frontend Developer</p>
           <p className="text-gray-400 mt-3 text-[1.1rem]">
             I build responsive, user-focused web applications.
           </p>

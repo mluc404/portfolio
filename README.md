@@ -47,17 +47,9 @@ npm run dev
 2. Modify styles in `app/globals.css`
 3. Replace images in `public/` directory
 
-## Deployment
+## Acknowledgement
 
-This project is configured for easy deployment on Vercel:
-
-1. Push your code to GitHub
-2. Import your repository on Vercel
-3. Deploy!
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
+Credit to [Brittany Chiang](https://github.com/bchiang7) for design inspiration
 
 ## Contact
 

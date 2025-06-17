@@ -10,7 +10,7 @@ export default function RightSide() {
     <div className="flex flex-col px-6 py-8 gap-8 md:gap-0 md:px-20 md:py-24 ">
       <div id="about" className="flex flex-col gap-0 relative">
         <div className="blur-heading">ABOUT</div>{" "}
-        <div className="flex flex-col gap-2 md:gap-4 text-gray-400 text-[1.05rem] leading-relaxed md:pt-4 md:pr-4">
+        <div className="flex flex-col gap-4 text-gray-400 text-[1.05rem] leading-relaxed md:pt-4 md:pr-4">
           <p>
             I&apos;m a developer passionate about crafting intuitive and
             responsive web applications that prioritize{" "}
