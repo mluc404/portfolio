@@ -9,7 +9,7 @@ export default function Home() {
         <div className=" w-full md:w-[40%] md:h-[100vh] md:sticky md:top-0">
           <LeftSide />
         </div>
-        <div className="w-full md:w-[60%]">
+        <div className="w-full md:w-[60%] pb-0">
           <RightSide />
         </div>
       </div>

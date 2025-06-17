@@ -5,7 +5,9 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
   return (
     <div
       className="flex flex-col sm:grid sm:grid-cols-[30%_1fr] gap-4 items-start hover:bg-blue-300/10
-    sm:px-4 sm:py-6 rounded-xl"
+    sm:px-4 sm:py-6 rounded-xl hover:shadow-sm shadow-white/20 hover:cursor-pointer
+     transition-all duration-200 ease-in-out"
+      onClick={() => window.open(project.link, "_blank")}
     >
       <div className="hidden sm:block">
         <Image src={project.image} alt="project image" className="rounded-xl" />

@@ -33,11 +33,11 @@ export default function NavButtons() {
             scrollToSection(btnName);
           }}
           className={`grid  w-full items-center justify-items-start gap-4
-        hover:cursor-pointer hover:text-white hover:grid-cols-[15%_1fr] 
+        hover:cursor-pointer hover:text-white hover:grid-cols-[20%_1fr] 
         transition-all duration-200 ease-in-out group
          ${
            currentBtn === btnName
-             ? "grid-cols-[15%_1fr] text-white"
+             ? "grid-cols-[20%_1fr] text-white"
              : "grid-cols-[10%_1fr] text-gray-500 "
          }`}
         >

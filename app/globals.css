@@ -3,7 +3,7 @@
 :root {
   /* --background: #0e1a30; */
   --background: #0d172b;
-  --foreground: #e7e7e7;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -34,4 +34,7 @@ body {
 .blur-heading {
   @apply md:hidden w-[110vw] -mx-8 px-8 sticky top-0 bg-[0d172b]
   font-semibold py-3 backdrop-blur-[10px];
+}
+.icon-btn {
+  @apply w-full h-full object-contain hover:cursor-pointer;
 }

@@ -1,14 +1,16 @@
+"use client";
+
 import { myInfo } from "../constant/myInfo";
 import JobCard from "./JobCard";
 import ProjectCard from "./ProjectCard";
+import SchoolCard from "./SchoolCard";
 
 export default function RightSide() {
   return (
     <div className="flex flex-col px-6 py-8 gap-8 md:gap-0 md:px-20 md:py-24 ">
-      {/* <div className="h-[100vh]"> */}
-      <div id="about" className="flex flex-col gap-4 relative">
+      <div id="about" className="flex flex-col gap-0 relative">
         <div className="blur-heading">ABOUT</div>{" "}
-        <div className="flex flex-col gap-2 text-gray-400">
+        <div className="flex flex-col gap-2 md:gap-4 text-gray-400 text-[1.05rem] leading-relaxed md:pt-4 md:pr-4">
           <p>
             I&apos;m a developer passionate about crafting intuitive and
             responsive web applications that prioritize{" "}
@@ -40,10 +42,7 @@ export default function RightSide() {
         </div>
       </div>
 
-      <div
-        id="experience"
-        className="flex flex-col gap-4 sm:gap-4 relative sm:pt-20"
-      >
+      <div id="experience" className="flex flex-col gap-0 relative sm:pt-40">
         <div className="blur-heading">EXPERIENCE</div>{" "}
         <div className="flex flex-col gap-10 sm:gap-0">
           {myInfo.job.map((job, index) => (
@@ -57,6 +56,18 @@ export default function RightSide() {
         <div className="flex flex-col gap-10 sm:gap-4 ">
           {myInfo.projects.map((project, index) => (
             <ProjectCard key={index} project={project} />
+          ))}
+        </div>
+      </div>
+
+      <div
+        id="education"
+        className="flex flex-col gap-2 relative pt-5 sm:pt-15"
+      >
+        <div className="blur-heading">EDUCATION</div>
+        <div className="flex flex-col gap-2">
+          {myInfo.schools.map((school, index) => (
+            <SchoolCard key={index} school={school} />
           ))}
         </div>
       </div>
