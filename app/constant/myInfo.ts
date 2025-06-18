@@ -35,13 +35,25 @@ export const myInfo: MyInfoType = {
   job: [
     {
       title: "Frontend Developer",
-      company: "Personal Projects",
+      company: "Self-Initiated Projects",
       time: "July 2024 - Present",
-      description: `I've immersed myself in The Odin Project
-         with a strong focus on Frontend development. 
-         I've built hands on projects to hone my skills and bring ideas to life. 
-         Currently, I'm expanding my skills by learning Backend 
-         development to enhance my versatility.`,
+      // description: `I've immersed myself in The Odin Project
+      //    with a strong focus on Frontend development.
+      //    I've built hands on projects to hone my skills and bring ideas to life.
+      //    Currently, I'm expanding my skills by learning Backend
+      //    development to enhance my versatility.`,
+      // description: `I’ve immersed myself in The Odin Project’s full-stack JavaScript curriculum,
+      //  focusing heavily on modern frontend development. Through personal projects,
+      //  I’ve applied core concepts like component-driven architecture, responsive design,
+      //  centralized state management, and testing.
+      //  I'm currently deepening my skills in backend development to become a more
+      //  versatile engineer, while continuing to build production-like projects that
+      //   simulate team collaboration and feature development workflows.`,
+      description: `I've completed The Odin Project’s full stack JavaScript curriculum 
+      with a strong focus on modern frontend development. Through personal projects,
+       I've applied concepts like component driven architecture, responsive design, 
+       state management, and testing. I'm now expanding into backend development while 
+       continuing to build projects that reflect real world applications.`,
       skills: [
         "React",
         "TypeScript",

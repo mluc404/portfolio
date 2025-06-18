@@ -18,10 +18,16 @@ export default function NavButtons() {
   ];
   const [currentBtn, setCurrentBtn] = useState<string>("");
 
-  // useEffect(() => {
-  //   scrollToSection("about");
-  //   setCurrentBtn("about");
-  // }, []);
+  // Set default displayed section depending on devices
+  useEffect(() => {
+    scrollToSection("my-name");
+    if (window.innerWidth < 768) {
+      scrollToSection("my-name");
+    } else {
+      scrollToSection("about");
+      setCurrentBtn("about");
+    }
+  }, []);
 
   return (
     <div className="flex flex-col items-start gap-4 text-[.9rem]">

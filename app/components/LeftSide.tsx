@@ -13,8 +13,8 @@ export default function LeftSide() {
       className="flex flex-col gap-8 justify-between px-6 py-10 
     md:px-20 md:py-24 md:h-[100vh] "
     >
-      <div className="flex flex-col gap-20">
-        <div className="flex flex-col gap-0">
+      <div className="flex flex-col gap-20 ">
+        <div id="my-name" className="flex flex-col gap-0">
           <h1 className="font-bold text-[2.8rem] md:text-[3rem]">Minh Luc</h1>
           <p className="text-[1.2rem] md:text-[1.3rem]">Frontend Developer</p>
           <p className="text-gray-400 mt-3 text-[1.1rem]">
