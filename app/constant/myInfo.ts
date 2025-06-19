@@ -37,18 +37,7 @@ export const myInfo: MyInfoType = {
       title: "Frontend Developer",
       company: "Self-Initiated Projects",
       time: "July 2024 - Present",
-      // description: `I've immersed myself in The Odin Project
-      //    with a strong focus on Frontend development.
-      //    I've built hands on projects to hone my skills and bring ideas to life.
-      //    Currently, I'm expanding my skills by learning Backend
-      //    development to enhance my versatility.`,
-      // description: `I’ve immersed myself in The Odin Project’s full-stack JavaScript curriculum,
-      //  focusing heavily on modern frontend development. Through personal projects,
-      //  I’ve applied core concepts like component-driven architecture, responsive design,
-      //  centralized state management, and testing.
-      //  I'm currently deepening my skills in backend development to become a more
-      //  versatile engineer, while continuing to build production-like projects that
-      //   simulate team collaboration and feature development workflows.`,
+
       description: `I've completed The Odin Project’s full stack JavaScript curriculum 
       with a strong focus on modern frontend development. Through personal projects,
        I've applied concepts like component driven architecture, responsive design, 
@@ -93,8 +82,7 @@ export const myInfo: MyInfoType = {
   projects: [
     {
       title: "Roamio Travel Planner",
-      description: `Designed and built a full stack travel planner from scratch, allowing users to plan and
-         manage trips with Ai powered suggestions.`,
+      description: `Full stack travel planner allowing users to plan and manage trips with Ai powered suggestions.`,
       skills: [
         "React",
         "TypeScript",
@@ -102,22 +90,24 @@ export const myInfo: MyInfoType = {
         "TailwindCSS",
         "Supabase",
         "Vercel",
+        "Gemini",
+        "Google Place",
       ],
       image: roamio3,
       link: "https://github.com/mluc404/travel-planner",
     },
     {
       title: "PokeMind",
-      description: `Interactive memory game leveraging PokeAPI to dynamically render Pokémon cards 
-        with two difficulty levels.`,
+      description: `Interactive memory card game leveraging PokeAPI to dynamically render Pokémon cards
+       with two difficulty levels.`,
       skills: ["Vite", "React", "JavaScript", "CSS", "PokeAPI"],
       image: pokeMind,
       link: "https://github.com/mluc404/memory-cards",
     },
     {
       title: "Portfolio Website",
-      description: `A modern, adaptable website built to perform flawlessly on both desktop and mobile,
-         highlighting my projects and skills with a smooth user experience.`,
+      description: `Personal site showcasing projects and skills with seamless mobile/desktop 
+      performance and modern UI design.`,
       skills: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
       image: portfo4,
       link: "https://github.com/mluc404/portfolio",
@@ -133,7 +123,6 @@ export const myInfo: MyInfoType = {
     {
       time: "2020 - 2024",
       school: "UC San Diego",
-      // school: "University of California, San Diego",
       major: "Bachelor of Science in Data Science",
     },
   ],

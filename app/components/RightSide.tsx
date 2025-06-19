@@ -15,7 +15,8 @@ export default function RightSide() {
         leading-relaxed md:pt-4 md:pr-4"
         >
           <p>
-            I&apos;m a frontend developer passionate about building accessible
+            I&apos;m a frontend developer passionate about building{" "}
+            <span className="text-white">accessible </span>
             and intuitive web applications that prioritize{" "}
             <span className="text-white"> user experience </span> at scale. I
             specialize in crafting performance driven interfaces using modern
@@ -24,8 +25,8 @@ export default function RightSide() {
           <p>
             With a strong foundation in data science and hands on frontend
             development experience, I&apos;m confident in my ability to solve
-            real world problems through{" "}
-            <span className="text-white">clean, maintainable code</span> and
+            real world problems through clean,
+            <span className="text-white"> maintainable code</span> and
             thoughtful design. I&apos;m eager to contribute to{" "}
             <span className="text-white"> collaborative </span>
             teams working on high impact products.
