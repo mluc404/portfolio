@@ -121,7 +121,7 @@ export const myInfo: MyInfoType = {
       major: "Full Stack JavaScript Course",
     },
     {
-      time: "2020 - 2024",
+      time: "Graduated 2024",
       school: "UC San Diego",
       major: "Bachelor of Science in Data Science",
     },

@@ -4,7 +4,7 @@ export default function JobCard({ job }: { job: JobProps }) {
   return (
     <div
       className="flex flex-col sm:grid sm:grid-cols-[30%_1fr] gap-0 sm:gap-4 items-start
-       hover:bg-blue-300/10 hover:shadow-sm shadow-white/20 transition-all duration-200 ease-in-out
+       hover:bg-blue-300/10 hover:shadow-sm shadow-white/20 transition-all duration-300 ease-in-out
        sm:px-4 sm:py-6 rounded-xl"
     >
       {" "}

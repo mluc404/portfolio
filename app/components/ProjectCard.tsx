@@ -7,7 +7,7 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
     <div
       className="flex flex-col sm:grid sm:grid-cols-[30%_1fr] gap-4 items-start hover:bg-blue-300/10
     sm:px-4 sm:py-6 rounded-xl hover:shadow-sm shadow-white/20 hover:cursor-pointer
-     transition-all duration-200 ease-in-out group"
+     transition-all duration-300 ease-in-out group"
       onClick={() => window.open(project.link, "_blank")}
     >
       <div className="hidden sm:block">
