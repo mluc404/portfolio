@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import CustomCursor from "./components/CustomCursor";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Minh Luc",
-  description: "Frontend Developer Portfolio ",
+  description: "Minh Luc's Portfolio ",
   icons: {
     icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
     apple: [{ url: "/apple-icon.png" }],
@@ -32,8 +33,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <CustomCursor glowColor="rgba(50, 87, 162, 0.1)" glowRadius={300} />
+        <CustomCursor glowColor="rgba(46, 74, 255, 0.12)" glowRadius={500} />
         {children}
+        <Analytics />
       </body>
     </html>
   );

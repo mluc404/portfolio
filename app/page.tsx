@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LeftSide from "./components/LeftSide";
 import RightSide from "./components/RightSide";
 

@@ -4,7 +4,6 @@ import NavButtons from "./NavButtons";
 import githubLogo from "@/public/githubLogo.png";
 import inLogo from "@/public/inLogo.png";
 import emailLogo2 from "@/public/emailLogo2.png";
-
 import Image from "next/image";
 
 export default function LeftSide() {
@@ -15,12 +14,13 @@ export default function LeftSide() {
     >
       <div className="flex flex-col gap-20 ">
         <div id="my-name" className="flex flex-col gap-0">
-          <h1 className="font-bold text-[2.8rem] md:text-[3rem]">Minh Luc</h1>
-          <p className="text-[1.2rem] md:text-[1.3rem]">Frontend Developer</p>
-          <p className="text-gray-400 mt-3 text-[1.1rem]">
-            I build responsive, user-focused web applications.
+          <h1 className="font-bold text-[2.8rem] md:text-[4rem]">Minh Luc</h1>
+          <p className="text-[1.2rem] md:text-[1.4rem]">Frontend Developer</p>
+          <p className="text-gray-400 mt-3 text-[1.1rem] md:text-[1.3rem]">
+            I build responsive, user focused web applications.
           </p>
         </div>
+
         <div className="hidden md:block">
           <NavButtons />
         </div>

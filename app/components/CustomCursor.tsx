@@ -39,8 +39,7 @@ export default function CustomCursor({
         style={{
           width: glowRadius * 2,
           height: glowRadius * 2,
-          backgroundColor: glowColor,
-          filter: "blur(100px)",
+          background: `radial-gradient(circle, ${glowColor} 0%, transparent 70%)`,
           transform: "translate(-50%, -50%)",
         }}
       />
