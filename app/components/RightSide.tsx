@@ -11,7 +11,7 @@ export default function RightSide() {
       <div id="about" className="flex flex-col gap-0 relative">
         <div className="blur-heading">ABOUT</div>{" "}
         <div
-          className="flex flex-col gap-4 text-gray-400 text-[1.05rem] md:text-[1.3rem]
+          className="flex flex-col gap-4 text-gray-400 text-[1.05rem] md:text-[1.2rem]
         leading-relaxed md:pt-4 md:pr-4"
         >
           <p>

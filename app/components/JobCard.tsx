@@ -8,15 +8,15 @@ export default function JobCard({ job }: { job: JobProps }) {
        sm:px-4 sm:py-6 rounded-xl"
     >
       {" "}
-      <div className="text-gray-400 text-[1rem] md:text-[1.2rem]">
+      <div className="text-gray-400 text-[1rem] md:text-[1.1rem]">
         {job.time}
       </div>
       <div className="flex flex-col">
-        <div className="font-semibold text-[1.1rem] md:text-[1.3rem]">
+        <div className="font-semibold text-[1.1rem] md:text-[1.2rem]">
           {job.title}
         </div>
         <div className="md:text-[1.2rem]">{job.company}</div>
-        <div className="text-gray-400 leading-normal my-2 mb-3 md:text-[1.2rem]">
+        <div className="text-gray-400 leading-normal my-2 mb-3 md:text-[1.1rem]">
           {job.description}
         </div>
         <div className="flex gap-2 flex-wrap">

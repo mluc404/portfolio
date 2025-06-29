@@ -8,12 +8,12 @@ export default function SchoolCard({ school }: { school: SchoolProps }) {
        transition-all duration-200 ease-in-out"
     >
       {" "}
-      <div className="hidden sm:block text-gray-400 text-[1rem] md:text-[1.2rem] ">
+      <div className="hidden sm:block text-gray-400 text-[1rem] md:text-[1.1rem] ">
         {school.time}
       </div>
       <div className="flex flex-col w-full">
         <div className="flex justify-between w-full">
-          <div className="font-semibold text-[1.1rem] md:text-[1.3rem] ">
+          <div className="font-semibold text-[1.1rem] md:text-[1.2rem] ">
             {school.school}
           </div>
           <div className="sm:hidden text-gray-400 text-[1rem] ">
@@ -21,7 +21,7 @@ export default function SchoolCard({ school }: { school: SchoolProps }) {
           </div>
         </div>
 
-        <div className="text-gray-400 leading-tight my-2 mb-3 italic md:text-[1.2rem]">
+        <div className="text-gray-400 leading-tight my-2 mb-3 italic md:text-[1.1rem]">
           {school.major}
         </div>
       </div>
