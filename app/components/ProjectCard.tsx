@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
             <div
               key={index}
               className="bg-green-300/20 rounded-[10px] px-2
-            text-[.9rem] md:text-[.9rem] text-cyan-300"
+            text-[.9rem] md:text-[.8rem] text-cyan-300"
             >
               {skill}
             </div>

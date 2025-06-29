@@ -47,7 +47,7 @@ export default function RightSide() {
 
       <div
         id="experience"
-        className="flex flex-col gap-0 relative sm:pt-60 sm:pb-30"
+        className="flex flex-col gap-0 relative sm:pt-80 sm:pb-30"
       >
         <div className="blur-heading">EXPERIENCE</div>{" "}
         <div className="flex flex-col gap-10 sm:gap-0">
