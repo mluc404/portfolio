@@ -30,7 +30,7 @@ export default function NavButtons() {
   }, []);
 
   return (
-    <div className="flex flex-col items-start gap-4 text-[1rem]">
+    <div className="flex flex-col items-start gap-4 text-[.9rem]">
       {buttonNames.map((btnName, index) => (
         <div
           key={index}
