@@ -16,12 +16,16 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
           <span>{project.title}</span>
           <a
             href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-light hover:text-cyan-300 transition-colors duration-200"
           >
             | Live Link
           </a>
           <a
             href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-light hover:text-cyan-300 transition-colors duration-200"
           >
             | Github
